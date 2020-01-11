@@ -97,7 +97,7 @@ a.pure-button-primary {
 }
 
 .home-menu {
-    background: #2d3e50;
+    background: #06273c;
 }
 
 .pure-menu.pure-menu-fixed {
@@ -108,10 +108,29 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
+    color: #a2bdc7;
+    font-weight: 800;
+    font-size: 200%;
 }
+.splash .pure-menu-heading-2 {
+    margin-top: -12% !important;
+    margin-left: -35%;
+    text-align: left;
+    color: #06273c;
+    font-weight: 600;
+    font-size: 100%;
+}
+.splash .pure-menu-heading-3 {
+    margin-top: 3% !important;
+    text-align: left;
+    margin-left: -35%;
+    color: #06273c;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+
+
 
 .home-menu .pure-menu-selected a {
     color: white;
@@ -135,7 +154,10 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background-image: url('backgroundimg1.jpg');
+    background-repeat: no-repeat;
+    background-position: 0% -20%;
+    background-size: cover; 
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -157,7 +179,7 @@ a.pure-button-primary {
     bottom: 0;
     right: 0;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: initial;
 }
 
 /* This is the main heading that appears on the blue section */

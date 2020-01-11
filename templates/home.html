@@ -1,15 +1,36 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Flask Tutorial</title>
+    <title>Imran's Home Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 </head>
 <body>
     {% extends "template.html" %}
     {% block content %}
-
-    <h1> My First Try Using Flask </h1>
-    <p> Flask is Fun </p>
+    <div class="splash-container">
+        <div class="splash-background">
+            <div class="splash">
+                <div class="pure-menu-heading-2">InfoSec Strategist, Developer & Futurist</div>
+                <div class="pure-menu-heading-3">Experienced Technical Consultant, Angel Investor</div>
+                <div class="pure-menu-heading-3">Blockhain Proponent & Web Pundit, UPenn '13 BSE</div>
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content">
+            <h2 class="content-head is-center">Lets see what we get here.</h2>
+            <div class="pure-g">
+                <div class="1-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"></h3>
+                    <p>lets see shall we</p>
+                    <div class="col-1">.col-1</div>
+                    <div class="col-1">.col-1</div>
+                    <div class="col-1">.col-1</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     {% endblock %}
 </body>
