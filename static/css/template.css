@@ -109,16 +109,20 @@ a.pure-button-primary {
 
 .home-menu .pure-menu-heading {
     color: #a2bdc7;
-    font-weight: 800;
-    font-size: 200%;
+    font-weight: 400;
+    font-size: 230%;
+    font-family: 'Courier New', 'Courier MonoThai', monospace, serif;
+    letter-spacing: 0.01em;
 }
 .splash .pure-menu-heading-2 {
-    margin-top: -12% !important;
+    margin-top: -10%;
     margin-left: -35%;
     text-align: left;
     color: #06273c;
     font-weight: 600;
     font-size: 100%;
+    font-family: 'Courier New', 'Courier MonoThai', monospace, serif;
+    letter-spacing: 0.005em;
 }
 .splash .pure-menu-heading-3 {
     margin-top: 3% !important;
@@ -127,6 +131,8 @@ a.pure-button-primary {
     color: #06273c;
     font-weight: 600;
     font-size: 100%;
+    font-family: 'Courier New', 'Courier MonoThai', monospace, serif;
+    letter-spacing: 0.005em;
 }
 
 
@@ -154,15 +160,15 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background-image: url('backgroundimg1.jpg');
+    background-image: url('images/backgroundimg1.jpg');
     background-repeat: no-repeat;
-    background-position: 0% -20%;
+    background-position: 0% 50px;
     background-size: cover; 
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
-    height: 88%;
+    height: 65%;
     top: 0;
     left: 0;
     position: fixed !important;
@@ -207,6 +213,7 @@ a.pure-button-primary {
  */
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
+    margin-top: -140px;
     position: absolute;
     top: 87%;
     width: 100%;
@@ -222,10 +229,16 @@ a.pure-button-primary {
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    margin: 0.5em 0 1em;
+}
+.content-head-2 {
+    font-weight: 300;
+    text-transform: initial;
+    letter-spacing: 0.01em;
+    margin: 1em 0 1em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
