@@ -16,7 +16,9 @@ body {
 
 h1,
 h2,
-h3,
+h3 {
+    text-align: center;
+}
 h4,
 h5,
 h6,
@@ -239,6 +241,13 @@ a.pure-button-primary {
     text-transform: initial;
     letter-spacing: 0.01em;
     margin: 1em 0 1em;
+}
+.content .pure-g .box1p {
+    background-image: url('images/github-icon-logo.jpg'); /*github-icon-logo-transparent.png*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 23%;
+    height: 100px;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
