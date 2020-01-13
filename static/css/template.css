@@ -108,6 +108,9 @@ a.pure-button-primary {
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
 }
+.pure-menu-link {
+    margin-top: 8px;
+}
 
 .home-menu .pure-menu-heading {
     color: #a2bdc7;
@@ -145,7 +148,7 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #6FBEF3;
+    color: #a2bdc7;
 }
 
 .home-menu li a:hover,
@@ -231,10 +234,11 @@ a.pure-button-primary {
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
-    font-weight: 500;
+    font-weight: 520;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 0.5em 0 1em;
+    margin: .75em 0 1em;
+    color: #06273c;
 }
 .content-head-2 {
     font-weight: 300;
