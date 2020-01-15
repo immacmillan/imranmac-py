@@ -167,7 +167,7 @@ a.pure-button-primary {
 .splash-container {
     background-image: url('images/backgroundimg1.jpg');
     background-repeat: no-repeat;
-    background-position: 0% 50px;
+    background-position: 0% 20px;
     background-size: cover; 
     z-index: 1;
     overflow: hidden;
@@ -176,6 +176,7 @@ a.pure-button-primary {
     height: 65%;
     top: 0;
     left: 0;
+    position: fixed !important;
     position: fixed !important;
 }
 
@@ -218,7 +219,7 @@ a.pure-button-primary {
  */
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
-    margin-top: -200px;
+    margin-top: -310px;
     position: absolute;
     top: 87%;
     width: 100%;
@@ -239,12 +240,15 @@ a.pure-button-primary {
     letter-spacing: 0.1em;
     margin: .75em 0 1em;
     color: #06273c;
+    font-family: 'Roboto';
+    font-size: 30px;
 }
 .content-head-2 {
     font-weight: 300;
     text-transform: initial;
     letter-spacing: 0.01em;
     margin: 1em 0 .05em;
+    font-size: 20px;
 }
 
 .content-head-3 {
@@ -253,13 +257,16 @@ a.pure-button-primary {
     text-transform: initial;
     letter-spacing: 0.01em;
     margin: 0em 0 0em;
+    font-size: 20px;
+}
 }
 .content .pure-g .box1p {
-    background-image: url('images/github-icon-logo.jpg'); /*github-icon-logo-transparent.png*/
+    background-image: url('images/gram.jpg'); 
     background-repeat: no-repeat;
     background-position: center 10px;
     background-size: 25%;
     height: 140px;
+    z-index: 200;
 }
 .content .pure-g .box2p {
     background-image: url('images/linkedin.svg'); /**/
