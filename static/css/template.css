@@ -58,21 +58,41 @@ label {
     margin: 1em 0 0;
     font-weight: bold;
     font-size: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .pure-form input[type] {
     border: 2px solid #ddd;
     box-shadow: none;
     font-size: 100%;
-    width: 100%;
+    width: 85%;
     margin-bottom: 1em;
+    margin-left: 10px;
+    margin-right:10%;
+}
+.pure-form .pure-input-1-2 {
+    margin-left: 10px;
+}
+.pure-form .pure-checkbox, .pure-form .pure-radio {
+    margin: .5em 0;
+    display: block;
+}
+.pure-form .pure-group input:first-child:last-child, .pure-form .pure-group textarea:first-child:last-child {
+    margin-left: 10px;
+    margin-right: 10%;
+    width: 85%;
+    min-height: 100px;
+}
+label {
+    margin-left: 10px;
 }
 
-/*
+    /*
  * -- PURE BUTTON STYLES --
  * I want my pure-button elements to look a little different
  */
-.pure-button {
+    .pure-button {
     background-color: #1f8dd6;
     color: white;
     padding: 0.5em 2em;
@@ -120,12 +140,12 @@ a.pure-button-primary {
     letter-spacing: 0.01em;
 }
 .splash .pure-menu-heading-2 {
-    margin-top: -10%;
+    margin-top: -13%;
     margin-left: -35%;
     text-align: left;
     color: #06273c;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 120%;
     font-family: 'Courier New', 'Courier MonoThai', monospace, serif;
     letter-spacing: 0.005em;
 }
@@ -135,7 +155,7 @@ a.pure-button-primary {
     margin-left: -35%;
     color: #06273c;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 120%;
     font-family: 'Courier New', 'Courier MonoThai', monospace, serif;
     letter-spacing: 0.005em;
 }
@@ -259,14 +279,14 @@ a.pure-button-primary {
     margin: 0em 0 0em;
     font-size: 20px;
 }
-}
+
+
 .content .pure-g .box1p {
-    background-image: url('images/gram.jpg'); 
+    background-image: url('images/githublogo.jpg'); /**/
     background-repeat: no-repeat;
-    background-position: center 10px;
-    background-size: 25%;
-    height: 140px;
-    z-index: 200;
+    background-position: center 14px;
+    background-size: 26%;
+    height: 120px;
 }
 .content .pure-g .box2p {
     background-image: url('images/linkedin.svg'); /**/
@@ -303,6 +323,7 @@ a.pure-button-primary {
     background-color: #eaeff0;
     position: relative;
     overflow: hidden;
+    margin-top: -26px;
 }
 .content .pure-g .box5p {
     background-image: url('images/envelope.jpg'); /**/
