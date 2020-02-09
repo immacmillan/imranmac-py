@@ -13,55 +13,23 @@
     <h4 class="content-head-2 is-center">Please feel free to contact me about any aligned interests, questions, professional inquiries, or anything else!</h4>
     <h4 class="content-head-2 is-center">Thank you for taking the time to reach out</h4>
 
-    <form class="pure-form pure-form-stacked">
+    <form class="pure-form pure-form-stacked" action="/actiontest" method="post">
         <fieldset>
-            <legend></legend>
-
             <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-1-3">
                     <label for="first-name">First Name</label>
-                    <input id="first-name" class="pure-u-23-24" type="text" required>
-                </div>
-
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <label for="last-name">Last Name</label>
-                    <input id="last-name" class="pure-u-23-24" type="text">
-                </div>
-
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <label for="email">E-Mail</label>
-                    <input id="email" class="pure-u-23-24" type="email" required>
-                </div>
-
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <label for="city">Address</label>
-                    <input id="city" class="pure-u-23-24" type="text">
-                </div>
-
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <label for="city">City</label>
-                    <input id="city" class="pure-u-23-24" type="text">
-                </div>
-
-                <div class="pure-u-1 pure-u-md-1-3">
-                    <label for="state">Country</label>
-                    <select id="state" class="pure-input-1-2">
-                        <option>US</option>
-                        <option>UK</option>
-                        <option>Mexico</option>
-                        <option>Canada</option>
-                        <option>Brazil</option>
-                        <option>Russia</option>
-                        <option>China</option>
-                        <option>Other</option>
-                    </select>
+                    <fieldset>
+                        <input id="first-name" class="pure-u-23-24" type="text" name="fname">
+                    </fieldset>
                 </div>
             </div>
         </fieldset>
     </form>
+
     <form class="pure-form">
         <label for="state">Please Select a Reason(s) for your Inquiry</label>
     </form>
+
     <div class="pure-g">
         <div class="pure-u-1 pure-u-md-1-2">
             <label for="checkbox-radio-option-one" class="pure-checkbox">
@@ -101,6 +69,7 @@
             </label>
         </div>
     </div>
+
     <form class="pure-form pure-form-stacked" action="/actiontest" method="post">
         <fieldset>
             <div class="pure-g">
